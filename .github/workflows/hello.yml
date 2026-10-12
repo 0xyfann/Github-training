@@ -5,4 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Halo! Ini GitHub Actions pertamaku."
+
+      name: Coba Actions
+on: push
+jobs:
+  sapaan:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Halo! Ini GitHub Actions pertamaku."
+      - run: echo "Kode ini dijalankan oleh ${{ github.actor }}"
+      
       
