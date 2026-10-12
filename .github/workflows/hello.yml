@@ -1,0 +1,8 @@
+name: Coba Actions
+on: push
+jobs:
+  sapaan:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Halo! Ini GitHub Actions pertamaku."
+      
